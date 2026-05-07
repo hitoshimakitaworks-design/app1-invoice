@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     description: '無料で使えるシンプルな請求書メーカー',
     type: 'website',
   },
+  verification: {
+    google: 'mS7X-tVy63VAOILE',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
