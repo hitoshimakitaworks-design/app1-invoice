@@ -4,6 +4,7 @@ import './globals.css'
 import { I18nProvider } from '@/lib/i18n'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { CookieBanner } from '@/components/CookieBanner'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           {children}
           <Footer />
+          <CookieBanner />
         </I18nProvider>
       </body>
     </html>
